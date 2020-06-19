@@ -6,7 +6,15 @@ namespace comp123summer2020lab4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //instaniate object of type person
+            Person rich = new Person("Richard", 39);
+
+            //use say hello method with . accessor
+            rich.sayhello();
+
+            Console.ReadLine();
+
+
         }
     }
 }
